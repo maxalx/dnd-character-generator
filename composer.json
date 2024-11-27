@@ -1,0 +1,28 @@
+{
+    "name": "maxalx/dnd-character-generator",
+    "description": "Simplified character generator for D&D 5e",
+    "type": "project",
+    "require": {
+        "php": "^8.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.5"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Dnd\\CharacterGenerator\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "DnD\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "maxalx",
+            "email": "web.maxalx@gmail.com"
+        }
+    ]
+}
